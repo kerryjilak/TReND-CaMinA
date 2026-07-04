@@ -40,13 +40,13 @@ then you can activate this environment with this command:
 conda activate trend2026
 ```
 
-last, install the allensdk. You will need to copy and paste this line:
+last, install the allensdk. You will need to copy and paste this line in your terminal:
 
 ```
 pip install git+https://github.com/AllenInstitute/AllenSDK@1bdca3ad884c3a5edea8236161424650603e6f29 "numpy == 1.26.4" "pandas == 2.3.0" "matplotlib > 3.8.0" "statsmodels >= 0.14.4"
 ```
 
-You should now be able to launch jupyter notebook and work with the notebooks locally. 
+You should now be able to launch jupyter notebook and work with the notebooks locally. Whenever you return, make sure you have activated your trend2026 environment before launching the notebook.
 
 REMEMBER: do not run the very first cell that is only for Colab.
 
